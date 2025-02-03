@@ -1,0 +1,3 @@
+streamlit
+python-docx
+comtypes; platform_system == "Windows"
