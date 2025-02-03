@@ -2,9 +2,6 @@ from docx import Document
 from datetime import datetime
 import os
 import streamlit as st
-from PIL import Image
-import fitz  # PyMuPDF
-import tempfile
 
 port = int(os.environ.get("PORT", 8080))
 # Function to generate a unique reference number
