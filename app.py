@@ -2,7 +2,6 @@ from docx import Document
 from datetime import datetime
 import os
 import streamlit as st
-from PyPDF2 import PdfReader, PdfWriter
 from PIL import Image
 import fitz  # PyMuPDF
 import tempfile
