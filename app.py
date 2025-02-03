@@ -7,7 +7,7 @@ from PIL import Image
 import fitz  # PyMuPDF
 import tempfile
 
-port = int(os.environ.get("PORT", 8501))
+port = int(os.environ.get("PORT", 8080))
 # Function to generate a unique reference number
 def generate_reference_number(company_name="BKR"):
     current_month = datetime.now().strftime("%m")
